@@ -1,0 +1,111 @@
+.creator-page-container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 1.5rem;
+    background-color: #fff; 
+    border-radius: 10px; 
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.creator-page-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.creator-page-title {
+    margin-bottom: 1.5rem;
+}
+
+
+.creator-page-description {
+    font-family: 'Courier New', Courier, monospace; 
+    background-color: #282c34; 
+    color: #dcdcdc; 
+    padding: 15px; 
+    border-radius: 5px; 
+    border: 1px solid #444; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    white-space: pre-wrap; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+    font-size: 1rem; 
+}
+
+.code-keyword {
+    color: #c792ea; 
+}
+
+.code-variable {
+    color: #82aaff; 
+}
+
+.code-string {
+    color: #ecc48d; 
+}
+
+.creator-page-image {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    border: 2px solid #ddd; 
+}
+
+.creator-page-url {
+    text-decoration: none;
+    color: #0066cc; 
+    font-weight: bold;
+}
+
+.creator-page-url:hover {
+    color: #004999; 
+}
+
+.creator-page-button-container {
+    display: flex;
+    gap: 10px; 
+    justify-content: space-between;
+}
+
+.creator-page-button {
+    background-color: rgb(79, 79, 215); 
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.creator-page-button:hover {
+    background-color: rgb(42, 42, 211); 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .creator-page-container {
+        padding: 15px;
+    }
+
+    .creator-page-title {
+        font-size: 2rem;
+    }
+
+    .creator-page-streamer-name {
+        font-size: 1.5rem;
+    }
+
+    .creator-page-description {
+        font-size: 1rem;
+    }
+
+    .creator-page-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}

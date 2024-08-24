@@ -1,0 +1,125 @@
+form {
+    /* height: 200px; */
+    width: 60%;
+    /* margin-right: 50px; */
+    background-color: black;
+    margin: 0 auto;
+    padding: 4rem 0;
+    color: white;
+    margin-bottom: 5rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    padding: 2rem;
+}
+fieldset {
+    border: none;
+    padding-inline: 2.5rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+
+hr {
+    border: none; 
+    border-top: 1px solid #ffffff; /* Add a solid top border */
+    margin: 1rem 0; /* Add some vertical spacing */
+}
+
+label {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: start;
+    /* padding-top: 5rem; */
+    color: white;
+}
+
+input[type=text],
+input[type=url]{
+    background: #E8E8E8;
+    font-size: 1.25rem;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: black;
+}
+
+/* input[type=text]:focus,
+input[type=url]:focus{
+    color:black;
+} */
+
+input[type=submit] {
+    background: #1ba4dd;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 100%;
+    padding-block: 0.75rem;
+    padding-inline: 1rem;
+}
+
+
+
+
+/*   
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  div.row {
+    display: flex;
+    width: 100%;
+  }
+  
+  div.row input {
+    margin-left: 5px;
+  }
+  div.row input:first-child {
+    margin-left: 0;
+  }
+  
+  input[type=text],
+  input[type=email] {
+    background: #E8E8E8;
+    font-size: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    padding: 6px 12px;
+  }
+  
+  textarea {
+    resize: none;
+    font-size: 10px;
+    background: #E8E8E8;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    padding: 6px 12px;
+    margin-bottom: 5px;
+  }
+  
+  input[type=submit] {
+    background: #1ba4dd;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 700;
+    width: 100%;
+    padding: 8px 0;
+  }
+  
+  input[type=submit]:hover {
+    background: #00bfff;
+  } */

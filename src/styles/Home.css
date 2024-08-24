@@ -1,0 +1,42 @@
+.home-page{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.streamer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-inline: auto;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.streamer{
+    width: 150px; /* Adjust card width */
+    height: 200px; /* Adjust card height */
+    background-color: #f4f4f4; /* Adjust card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.streamer:nth-child(odd) {
+    transform: rotate(-5deg);
+    translate: -6rem;
+  }
+  
+  .streamer:nth-child(even) {
+    transform: rotate(5deg);
+    translate: 6rem;
+  }
+  
+  .streamer:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }

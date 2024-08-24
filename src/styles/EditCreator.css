@@ -1,0 +1,29 @@
+dialog {
+    /* width: 100vw;
+    outline: 1px solid red;
+    outline-offset: -1 */
+    /* width:50vw; */
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.close{
+    width: 3rem;
+    background-color:brown;
+}
+
+
+header h1{
+    color: black;
+}
+
+.editCreatorForm{
+    width: 100%;
+}

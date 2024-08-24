@@ -1,0 +1,35 @@
+.streamer {
+    background-color: #f5f5f5; /* Light gray */
+    padding-bottom: 2rem;
+    border-radius: 0.5rem; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* More pronounced shadow for depth */
+    border: 2px solid #e0e0e0; /* Light gray border */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+    position: relative; /* For positioning inner elements */
+    overflow: hidden; /* Hide overflow for rounded corners */
+    width: 15rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.streamer-name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.streamer-buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.icon:hover {
+    background-color: rgb(195, 195, 195); /* Darker background on hover */
+    border-radius: 50%; /* Circle shape */
+}

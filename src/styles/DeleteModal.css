@@ -1,0 +1,30 @@
+.delete-button, .primary{
+    background-color: rgb(255, 60, 60);
+}
+
+.delete-button:hover, .primary:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+.delete-modal-content{
+    background-color: slategray;
+    border-radius: 0.75rem;
+    padding: 1rem 2rem;
+}
+
+.delete-modal-description-container{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.delete-icon{
+    color: rgb(191, 191, 68);
+    width: 7rem;
+    height: 7rem;
+}
+
+.delete-modal-buttons{
+    display: flex;
+    justify-content: space-between;;
+}
